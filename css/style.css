@@ -16,7 +16,7 @@ Colors:
 
 /* Generals Styles */
 body{
-    background-color: #D2C7C4;
+    background-color: #F5EFE6;
 }
 
 li{
@@ -35,7 +35,7 @@ a{
 /* header styles */
 header{
     width: 100%;
-    background-color: #D0B8A8;
+    background-color: #E8DFCA;
     height: 65px;
     display: flex;
     justify-content: space-between;
@@ -50,6 +50,14 @@ header img{
     font-size: 20px;
 }
 
-.oferts:hover{
+.oferts a{
+    padding: 12px;
+    background-color: #AEBDCA;
+    border-radius: 9px;
+}
 
+
+.oferts a:hover{
+    background-color: #E8C4C4;
+    color:black;
 }
